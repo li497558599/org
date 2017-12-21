@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta http-equiv="Cache-Control" content="no-transform " />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+<meta name="applicable-device"content="pc,mobile">
+<title>{dede:field.title/}{dede:field.shorttitle/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}">
+<meta name="description" content="{dede:field name='description '/}">
+<link href="/templets/default/css/idangerous.swiper.css" type="text/css" rel="stylesheet"/>
+<link href="/templets/default/css/js.css" type="text/css" rel="stylesheet"/>
+<link href="/templets/default/css/style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body oncontextmenu=self.event.returnValue=false onselectstart="return false">
+{dede:include filename="head.htm"/}
+
+<div class="sl7-hbg pc1">
+  <div class="sl7-h"> <span><i>崇德尚武 德才兼备</i><br/>
+    中国文武教育第一品牌  少林寺直属公办文武院校</span>
+    <ul>
+      <li class="sl7-hlia"><b>18,000</b><br/>
+        余名学员</li>
+      <li class="sl7-hlib"><b>寺院主办</b></li>
+      <li class="sl7-hlic"><b>武僧执教</b></li>
+    </ul>
+  </div>
+</div>
+
+
+<div class="sl7-i">
+ {dede:include filename="left.htm"/}
+  <div class="sl7-ib">
+    <div class="sl7-ib-a pc1">当前位置 > <a href="http://www.shaolinxuexiao.org/">河南嵩山少林寺武术学院</a>>  <a href="/xw_14.html">{dede:field name='typename'/}</a> ><span><a href="http://awt.zoosnet.net/LR/Chatpre.aspx?id=AWT41686027&lng=cn" rel="nofollow" target="_blank">在线咨询</a></span></div>
+    <div class="sl7-ib-a phone1">{dede:field name='typename'/}<a href="http://www.shaolinxuexiao.org/">返回首页></a></div>
+    <div class="sl7-ib-b"> 
+    
+    
+<div class="txt_tit"><h2>{dede:field.title/}{dede:field.shorttitle/}</h2>
+<p class="text-center2">时间：{dede:field.pubdate function="MyDate('Y-m-d H:i',@me)"/}  编辑：http://www.shaolinxuexiao.org/  作者：{dede:field.writer/}</p>
+</div>
+
+{dede:field.body/}
+
+ 
+    
+    
+     </div>
+    
+<p class="aac">{dede:prenext get='pre'/}</p>
+<p class="aac">{dede:prenext get='next'/}</p>
+    <div class="psl7-cc phone1"><a href="tel:0371-62881238"><img src="/templets/default/images/tel.jpg"></a></div>
+    <div class="sl7-ib-c pc1">
+      <div class="sl7-ib-ca"><span>武校新闻</span><a href="/xw_9.html">查看更多</a></div>
+      <ul>
+      {dede:arclist  titlelen=50   orderby='hot'   row='12' typeid='5,6'}
+        <li><a href="[field:arcurl/]">[field:title/]</a><span>[field:pubdate function="MyDate('Y-m-d',@me)"/]</span></li>
+          {/dede:arclist}  
+      </ul>
+    </div>
+    <div class="sl7-ib-c phone1">
+      <div class="sl7-ib-ca"><span>武校新闻</span><a href="/xw_14.html">查看更多</a></div>
+      <ul>
+        {dede:arclist  titlelen=50   orderby='hot'   row='6' typeid='5,6'}
+        <li><a href="[field:arcurl/]">[field:title/]</a><span>[field:pubdate function="MyDate('Y-m-d',@me)"/]</span></li>
+          {/dede:arclist}  
+      </ul>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+ {dede:include filename="bottom.htm"/}
+
+ {dede:include filename="footer.htm"/}
+
+
+</body>
+</html>

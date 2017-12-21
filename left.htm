@@ -1,0 +1,62 @@
+ <div class="sl7-ia pc1">
+    <div class="sl7-ia-box">
+      <dl class="sl7-ia-dla">
+        <dt><span>少林寺武校热点资讯</span></dt>
+        <dd> <img src="/templets/default/images/p15.jpg" class="sl7-ia-pica"/>
+        {dede:arclist  titlelen=45   orderby='hot'   row='6' typeid='5,6'}
+          <p><a href="[field:arcurl/]">[field:title/]</a></p>
+             {/dede:arclist}  
+        </dd>
+      </dl>
+    </div>
+    <div class="sl7-ia-box">
+      <dl>
+        <dt><span>在线报名</span></dt>
+        <dd>
+          <form action="/plus/diy.php" enctype="multipart/form-data" method="post">
+<input type="hidden" name="action" value="post" />
+<input type="hidden" name="diyid" value="1" />
+<input type="hidden" name="do" value="2" />
+
+          <ul class="sl7-ia-ula">
+            <li><span>*姓名:</span>
+              <input name="xm" type="text" class="sl7-ia-txt">
+            </li>
+            <li><span>*年龄:</span>
+              <input name="age" type="text" class="sl7-ia-txt">
+            </li>
+            <li><span>*电话:</span>
+              <input name="tel" type="text" class="sl7-ia-txt">
+            </li>
+            <input type="hidden" name="dede_fields" value="xm,text;xb,radio;age,text;wx,text;tel,text;dz,text;content,multitext" />
+<input type="hidden" name="dede_fieldshash" value="1d5c76c75fc3093b54389bc836ac5d53" />
+            <li>
+              <input name="" type="submit" class="sl7-ia-but" value="提交">
+            </li>
+            <li class="sl7-ia-lia">温馨提示：我校招生办会对您所填资料严格保密，请放心填写。</li>
+          </ul>
+            </form>
+
+        </dd>
+      </dl>
+    </div>
+    <div class="sl7-ia-box">
+      <dl>
+        <dt><span>添加微信</span></dt>
+        <dd>
+          <div class="sl7-ia-diva"> <img src="/templets/default/images/ewm3.jpg" />
+            <p>时刻关注孩子在校吃住、练功、学习、生活等详情。</p>
+          </div>
+        </dd>
+      </dl>
+    </div>
+    <div class="sl7-ia-box sl7-ia-boxa">
+      <dl>
+        <dt><span>联系电话</span></dt>
+        <dd>
+          <div class="sl7-ia-divb">0371-62881238</div>
+          <div class="sl7-ia-divc">15038282858</div>
+        </dd>
+      </dl>
+    </div>
+  </div>
